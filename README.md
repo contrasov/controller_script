@@ -33,3 +33,9 @@ Depois de mapear e salvar o nome do "eventX" do seu controle você vai no codigo
 obs: "dpad_x" são suas setas
 
 - na linha "--axismap" não altere nada.
+
+Quando fizer tudo isso, você terá seu scprit completo, então abra seu terminal e execute os comandos seguintes dentro do repositorio. 
+
+- cargo build --release
+
+ele ira buildar e atualizar o bin que tem dentro da pasta "target/release", então agora é so executar sempre esse bin para jogar. 
